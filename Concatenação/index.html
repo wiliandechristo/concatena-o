@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Concatenação em JavaScript</title>
+</head>
+<body>
+
+<script>
+  // Concatenação usando o operador '+'
+  let string1 = "Olá";
+  let string2 = "mundo";
+  let resultado1 = string1 + ", " + string2;
+
+  // Concatenação usando o método concat()
+  let resultado2 = string1.concat(", ", string2);
+
+  // Concatenação usando template string
+  let resultado3 = `${string1}, ${string2}`;
+
+  // Exibindo os resultados no console
+  console.log("Usando o operador '+':", resultado1);
+  console.log("Usando o método concat():", resultado2);
+  console.log("Usando template string:", resultado3);
+
+  // Concatenação com variáveis e expressões
+  let nome = "João";
+  let idade = 30;
+  let saudacao = `Olá, meu nome é ${nome} e tenho ${idade} anos.`;
+  console.log("Concatenação com variáveis e expressões:", saudacao);
+</script>
+
+</body>
+</html>
